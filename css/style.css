@@ -5,14 +5,13 @@ html, body, h1 {
 }
 body {
 	font-family: 'Open Sans', sans-serif;
-	
 }
 
 #background {
 	background-image: url('https://unsplash.it/1920/1080/?random');
-	background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: 100%;
+	background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
 	width: 100%;
     height: 100%;
     position: fixed;
@@ -59,5 +58,4 @@ small {
 	border-radius: 100px;
 	-webkit-border-radius: 100px;
 	-moz-border-radius: 100px;
-
 }
